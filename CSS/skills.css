@@ -16,12 +16,13 @@
     color: #BAC3CF;
     font-size: 1.4rem;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .interest{
     grid-area: interest;
     width: 75%;
     min-height: 17vh;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
