@@ -46,9 +46,16 @@
   height: 9px;
 }
 
+/*hr {  
+            height: 4px;
+            background-color: rgb(241, 75, 75);  
+            border: none;
+        } */
 
-
-
+        br {
+                        display: block;
+                        margin: 5px 0;
+                     }
 </style>
 
 </head>
@@ -89,16 +96,17 @@
     <section class="left socials">
         <a href="https://www.linkedin.com/in/surabhi-parte-854b8720a/" target="_blank"><img src="icons/linkedin.svg"
                 alt="LinkedIn"></a>
-        <a href="https://www.instagram.com/surabhi_parte/" target="_blank"><img src="icons/instagram.svg" alt="Instagram"></a>
-        <a href="" target="_blank"><img src="icons/twitter.svg" alt="Twitter"></a>
-        <hr>
+        <a href="https://www.instagram.com/surabhi_parte/" target="_blank"><img src="icons/instagram1.svg" alt="Instagram"></a>
+        <!--<a href="" target="_blank"><img src="icons/twitter.svg" alt="Twitter"></a> -->
+        <!--<hr>-->
+        <hr style="color:rgb(241, 75, 75);background-color:rgb(241, 75, 75)">
     </section>
 
     <div class="contactButton">
         <div class="first">
             <div class="second" style="--i:1">
-                <div class="third" style="--i:2">
-                    <div class="fourth" style="--i:3"></div>
+                <!--<div class="third" style="--i:2">
+                    <div class="fourth" style="--i:3"></div>-->
                 </div>
             </div>
         </div>
@@ -129,7 +137,8 @@
     <div class="about part" id="About">
         <div class="title">
             <h1>About Me</h1>
-            <hr>
+            <!--<hr>-->
+            <hr style="height:2px;border-width:0;color:rgb(241, 75, 75);background-color:rgb(241, 75, 75)">
         </div>
         <div class="wrap">
             <div class="heading" data-aos="fade-right">
@@ -155,26 +164,40 @@
     <div class="skills part" id="Skills">
         <div class="title">
             <h1>Skills</h1>
-            <hr>
+            <hr style="height:2px;border-width:0;color:rgb(241, 75, 75);background-color:rgb(241, 75, 75)">
         </div>
         <div class="wrap">
-            <p data-aos="fade-right" class="skillText">An individual eager to learn and explore new fields of life and technology, with good listening
-                skills and fast learning abilities.</p>
+            <p data-aos="fade-right" class="skillText">A dedicated individual with a fervent passion for computational biology and data analysis,
+                 driven to excel and innovate within the realm of research.</p>
+            <style>
+                .skillText + div {
+                    margin-top: 20px; /* Adjust the value to increase/decrease space */
+                }
+            </style>
             <div class="interest" data-aos="fade-right" data-aos-anchor=".skillText">
                 <h3>Interests</h3>
+                <br>
+                <br>
+                
                 <div class>
-                    <p>Web Development</p>
-                    <p>Programming in C/C++ and Python</p>
-                    <p>Art and craft</p>
+                    
+                    <p>In-vivo efficacy studies</p>
+                    <br>
+                    <p> Molecular biology techniques</p>
+                    <br>
+                    <p> Aptitude for research</p>
+                    <br>
+                    <p>Programming in Python, HTML, CSS</p>
+                    <br>
                 </div>
             </div>
 
             <div class="skillIteams" data-aos="fade-left">
                 <div class="iteam iteam1">
                     <div class="iteamCircle">
-                        <img src="./icons/cpp.svg" alt=" C Language">
+                        <img src="./icons/graph.svg" alt=" C Language">
                     </div>
-                    <p>C/C++</p>
+                    <p>In-vivo efficacy</p>
                 </div>
                 <div class="iteam iteam2">
                     <div class="iteamCircle">
@@ -184,9 +207,9 @@
                 </div>
                 <div class="iteam iteam3">
                     <div class="iteamCircle">
-                        <img src="./icons/javascript.svg" alt="JavaScript">
+                        <img src="./icons/molecule.svg" alt="JavaScript">
                     </div>
-                    <p>JavaScript</p>
+                    <p>Molecular biology</p>
                 </div>
                 <div class="iteam iteam4">
                     <div class="iteamCircle">
@@ -198,18 +221,19 @@
                     <div class="iteamCircle">
                         <img src="./icons/css3.svg" alt="CSS3">
                     </div>
-                    <p>CSS3</p>
+                    <p>CSS3</p>     
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Projects Section -->
     
     <!-- Contact Me -->
     <div class="contact part" id="Contact">
         <div class="title">
             <h1>Contact</h1>
-            <hr>
+            <hr style="height:2px;border-width:0;color:rgb(241, 75, 75);background-color:rgb(241, 75, 75)">
         </div>
         <div class="wrap">
             <h3 data-aos="zoom-in">My inbox and social medias are always open. Whether you have a question or just want to say hello, I
@@ -219,14 +243,14 @@
             <div class="socials">
                 <a href="https://www.linkedin.com/in/surabhi-parte-854b8720a/" target="_blank"><img
                         src="icons/linkedin.svg" alt="LinkedIn"></a>
-                <a href="https://www.instagram.com/surabhi_parte/" target="_blank"><img src="icons/instagram.svg" alt="Instagram"></a>
-                <a href="" target="_blank"><img src="icons/twitter.svg"
-                        alt="Twitter"></a>
+                <a href="https://www.instagram.com/surabhi_parte/" target="_blank"><img src="icons/instagram1.svg" alt="Instagram"></a>
+                <!--<a href="" target="_blank"><img src="icons/twitter.svg"
+                        alt="Twitter"></a> -->
             </div>
         </div>
         <footer>
             <span class="footer" data-wait="500"
-                data-words='["I love to code.","Creating better version of myself!!","Searching for opportunities.","Learning..."]'></span>
+                data-words='["Creating a better version of myself!!","Searching for opportunities.","Learning..."]'></span>
         </footer>
     </div>
 
